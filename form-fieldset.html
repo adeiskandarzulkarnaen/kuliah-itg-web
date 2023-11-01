@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        fieldset {
+            margin: auto;
+            width: 300px;
+            border: 1px solid blue;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <form action="#" method="#">
+        <fieldset>
+            <legend>Registrasi</legend>
+            <table>
+                <tr>
+                    <td><label for="name">Nama</label></td>
+                    <td><input type="text" id="name" placeholder="nama lengkap"></td>
+                </tr>
+                <tr>
+                    <td><label for="username">Username</label></td>
+                    <td><input type="text" id="username" placeholder="username"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email</label></td>
+                    <td><input type="email" id="email" placeholder="email"></td>
+                </tr>
+                <tr>
+                    <td><label for="password">Password</label></td>
+                    <td><input type="password" id="password" placeholder="password"></td>
+                </tr>
+                <tr>
+                    <td><label>Jenis Kelamin</label></td>
+                    <td>
+                        <input name="gender" id="male" type="radio" value="L"><label for="male">Laki-Laki</label>
+                        <input name="gender" id="female" type="radio" value="P"><label for="female">Perempuan</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="agama">Agama</label></td>
+                    <td>
+                        <select id="agama" name="agama">
+                            <option value="Islam">Islam</option>
+                            <option value="Kristen">Kristen</option>
+                            <option value="budha">Budha</option>
+                            <option value="hindu">Hindu</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="bio">biografi</label></td>
+                    <td><textarea id="bio" id="" cols="21" rows="10"></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><button type="submit" value="simpan">Submit</button></td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
