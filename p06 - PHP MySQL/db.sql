@@ -1,0 +1,9 @@
+
+CREATE DATABASE db_coba;
+
+CREATE TABLE tamu(
+    idtamu INT NOT NULL AUTO_INCREMENT,
+    nmtamu VARCHAR(100) NOT NULL,
+    email VARCHAR(100) NOT NULL,
+    PRIMARY KEY(idtamu)
+) ENGINE = InnoDB ;

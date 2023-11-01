@@ -1,4 +1,2 @@
-# main
-JavaScript dan PHP
-
+# Praktikum Pemrograman Web
 
